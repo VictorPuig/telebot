@@ -1,0 +1,13 @@
+{
+  "name": "telebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "telegraf": "^3.32.0"
+  }
+}
