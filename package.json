@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "DEBUG=bot:* nodemon index.js"
   },
   "dependencies": {
     "debug": "^4.1.1",
+    "nodemon": "^1.19.2",
     "telegraf": "^3.32.0"
   }
 }
